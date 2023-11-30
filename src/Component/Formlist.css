@@ -1,0 +1,53 @@
+.Form{
+    width: 40%;
+    padding: 30px;
+    background : transparent;
+    margin-right: 10px;
+    /* border: 2px solid red; */
+    /* border-radius: 20px  0px 0px 20px; */
+    background:  #ced6e0;
+  
+    
+}
+
+.Form .input{
+    margin-top: 30px ;
+}
+
+.mb-3 .label{
+    font-weight: 700;
+    color: #8e44ad;
+}
+
+.Form .btn{
+    margin-top: 25px;
+    background-color: rgb(222, 226, 209);
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.Form .btn:hover{
+    background-color: rebeccapurple;
+}
+
+@media screen and (max-width : 1000px) {
+    .Form{
+        width: 100%;
+    }
+}
+
+
+.Edit-Data {
+    background-color:  rgb(244, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 70px;
+    
+    font-weight: 800;
+    font-size: 30px;
+    
+
+}

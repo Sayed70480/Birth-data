@@ -1,0 +1,27 @@
+.formData{
+    max-width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,1%);
+    
+}
+
+
+@media screen and (max-width : 1000px) {
+    .formData{
+        max-width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,1%);
+        padding: 0px 10px 0px 10px;
+        
+    }
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    
+}
